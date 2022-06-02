@@ -25,7 +25,7 @@ SECRET_KEY = '-piu+08$8@c@9j$+#_^2*1gffrix#01z$ar4yyicfp#r4ep)^$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['34.93.83.101',]
 
 
 # Application definition
@@ -74,13 +74,13 @@ WSGI_APPLICATION = 'JenkinsDjango.wsgi.application'
 # https://docs.djangoproject.com/en/3.1/ref/settings/#databases
 
 DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'HotelChains',
-        'USER': 'postgres',
-        'PASSWORD': 'root',
-        'HOST': 'localhost'
-    }
+#     'default': {
+#         'ENGINE': 'django.db.backends.postgresql',
+#         'NAME': 'HotelChains',
+#         'USER': 'postgres',
+#         'PASSWORD': 'root',
+#         'HOST': 'localhost'
+#     }
 }
 
 
